@@ -1,6 +1,5 @@
 # Base image with Node js
-FROM alpine:3.18
-ENV NODE_VERSION 20.12.0
+FROM node:12.2.0-alpine
 
 # Working directory with all the code files
 WORKDIR /app
